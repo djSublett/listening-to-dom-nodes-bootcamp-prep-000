@@ -7,6 +7,9 @@ main.addEventListener('click', function(event) {
 
 let divs = document.querySelectorAll('div');
  
+ 
+ // added event listener to bubble the children
+ 
 function bubble(e) {
   console.log(this.firstChild.nodeValue.trim() + ' bubbled');
 }
